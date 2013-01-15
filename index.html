@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>x</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="lookup.js"></script>
+</head>
+<body>
+<h1>BAM!</h1>
+<p>Check out this form!</p>
+<div id="codes_form">  
+  <form name="codes" action="">  
+    <fieldset>  
+      <label for="code" id="code_label">Code</label>  
+      <input type="text" name="code" id="code" size="30" value="" class="text-input" />  
+      <label class="error" for="code" id="code_error">Codes can only be numeric.</label>  
+      <br />  
+      <input type="submit" name="submit" class="button" id="submit_btn" value="Search" />  
+    </fieldset>  
+  </form>  
+</div>
+<h2>Results</h2>
+<div id="results"></div>
+</body>
+</html>
